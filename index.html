@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("mars.gif");
+    background-position: center;
+    background-size: cover;
+}
+#Canvas1
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+	margin-top: 30px;
+}
+
+h1,h4
+{
+	color: white !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Parking Cars</title>
+</head>
+<body onload="add()">
+<center>
+<h1>Move the orange car using arrow keys</h1>
+<h2>Reload the page to try in a different parking loat </h2>
+<canvas id="Canvas1" width=900 height="700"></canvas>
+<h4>
+	<b class="text-danger">NOTE : </b> IF THE ORANGE CAR IS NOT VISIABLE PRESS ANY ARROW KEY
+</h4>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
